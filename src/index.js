@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/styles.scss';
 import reportWebVitals from './reportWebVitals';
+import AppRouter , {history} from './routers/AppRouter';
+import configureStore from './store/configureStore';
+import { Provider } from 'react-redux';
+import Loading from './components/Loading';
+import { firebase } from './firebase/firebase';
+import { login, logout } from './actions/auth';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const store = configureStore();
+
+
+const jsx = (
+    <Provider store={store}>
+      <AppRouter />
+    </Provider>
 );
+let hasRendered = false;
+const renderApp = () => {
+  if (!hasRendered) {
+    ReactDOM.render(jsx, document.getElementById('root'));
+    hasRendered = true;
+  }
+};
+ReactDOM.render(<Loading />, document.getElementById('root'));
+renderApp();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+firebase.auth().onAuthStateChanged((user) => {
+  if (user) {
+    store.dispatch(login(user.uid));
+    history.push('/dashboard');
+  } else {
+    store.dispatch(logout());
+  }
+});
+
 reportWebVitals();
