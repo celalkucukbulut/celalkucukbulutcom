@@ -5,7 +5,7 @@ const Home = () => (
     <div>
       <h2>About Me</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum varius duis at consectetur. Nulla malesuada pellentesque 
-      elit eget gravida cum sociis natoque penatibus. Tellus at urna condimentum mattis pellentesque id. Egestas purus viverra accumsan in nisl nisi scelerisque. 
+      elit eget grasvida cum sociis natoque penatibus. Tellus at urna condimentum mattis pellentesque id. Egestas purus viverra accumsan in nisl nisi scelerisque. 
       Velit scelerisque in dictum non consectetur a. Lacinia at quis risus sed vulputate odio ut enim. Sit amet porttitor eget dolor morbi non arcu risus. 
       Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Odio eu feugiat pretium nibh. Dui vivamus arcu felis bibendum ut tristique. 
       Elit ullamcorper dignissim cras tincidunt. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sit amet luctus venenatis lectus. 
