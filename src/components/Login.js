@@ -6,6 +6,7 @@ const Login = () => {
   const [email, setEmail] = useState('celalkucukbulut@gmail.com');
   const [password, setPassword] = useState('admin123');
   const [errorMsg, setErrorMsg] = useState('');
+
   function validateForm() {
     return email && password;
   }
@@ -17,8 +18,8 @@ const Login = () => {
     
   }
   return (
-    <div className="box-layout">
-      <div className="box-layout__box">
+    <div className= "login">
+      <div className="login__box">
         <form onSubmit={handleSubmit}>
         {errorMsg && <div><p className="form__error">{errorMsg}</p></div>}
         <div><input

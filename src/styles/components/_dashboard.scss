@@ -1,24 +1,69 @@
-.dashboardPage {
-  margin: 4% 12% 4% 12% ;
+.dashboard {
   padding: 2px 2px 2px 2px;
   display: flex;
 }
 
-.profil {
-  width: 25%;
-  margin: 5% 0 5% 3% ;
-  padding: 2px 2px 2px 2px;
+.dashboard_bigScreen {
+  margin: 4% 4% 4% 12% ;
+}
+
+.dashboard_MobileScreen{
+  margin: 4% 1% 4% 1% ;
+}
+
+.dashboard_smallScreen {
+  margin: 1% 3% 1% 3% ;
+  padding: 1px 1px 1px 1px;
+  display: grid;
+  
+}
+
+.dashboard__profil {
   float: left;
   background-color: white;
   border: 2px solid white;
   border-radius: 3px;
   height: max-content;
+  margin: 4% 4% 4% 0% ;
+  padding: 2px 2px 2px 2px;
+  display: flex;
+  background: white;
+  width: 35%;
 }
 
-.headerContent{
-  width: 60%;
-  margin: 5% 10% 5% 10% ;
-  padding: 2px 2px 2px 2px;
-  background-color: white;
+.dashboard__profil_bigScreen {
+  margin: 5% 0% 5% 3% ;
+}
 
+.dashboard__profil_MobileScreen{
+  margin: 4% 1% 4% 1% ;
+  padding: 2px 2px 2px 2px;
+  display: flex;
+}
+
+.dashboard__profil_smallScreen {
+  margin: 1% 3% 1% 3% ;
+  padding: 1px 1px 1px 1px;
+  display: grid;
+  width: 90%;
+}
+
+.dashboard_headerContent{
+  width: 65%;
+  padding: 2px 2px 2px 2px;
+}
+
+.dashboard_headerContent_bigScreen {
+  margin: 5% 5% 5% 2% ;
+}
+
+.dashboard_headerContent_MobileScreen{
+  margin: 4% 1% 4% 1% ;
+}
+
+.dashboard_headerContent_smallScreen {
+  margin: 1% 3% 1% 3% ;
+  padding: 1px 1px 1px 1px;
+  display: grid;
+  width: 90%;
 }

@@ -1,17 +1,15 @@
-.box-layout {
+.login {
   align-items: center;
-  background: url('/Images/world.jpg');
-  background-size: cover;
   display: flex;
   height: 100vh;
   justify-content: center;
   width: 100vw;
 }
 
-.box-layout__box {
+.login__box {
   background: fade-out($color: rgba(182, 182, 182, 0), $amount: .15);
   border-radius: 3px;
-  border: 1px solid #cacccd;
+  border: 1px solid $blue;
   padding: $l-size $m-size;
   text-align: left;
   width: 40rem;

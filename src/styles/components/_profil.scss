@@ -1,0 +1,40 @@
+.profil {
+  background-color: white;
+}
+
+.profil__nameJob{
+  margin: 0 0 5% 2%;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  line-height: 18px;
+  padding: 2% 2% 2% 2%;
+}
+
+.profil__name{
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.profil__job{
+  font-size: 13px;
+  color: #777;
+}
+
+.profil__info{
+  font-size: 13.5px;
+  color: #7F7F7F;
+  line-height: 12px;
+  margin: 0;
+  padding : 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+}
+
+.profil__value{
+  color: #000;
+  font-size: 100%;
+
+}
