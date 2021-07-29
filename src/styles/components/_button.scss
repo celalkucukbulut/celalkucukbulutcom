@@ -11,12 +11,22 @@
   margin: $s-size;
 }
 
-
-
 .button--link {
   background: none;
 }
 
 .button--secondary {
   background: #888;
+}
+
+.button__headerItem {
+  background-color: transparent;
+  border:none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button__headerItem:hover{
+  color: $blue;
 }

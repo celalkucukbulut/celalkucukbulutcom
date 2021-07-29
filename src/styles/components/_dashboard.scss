@@ -4,7 +4,7 @@
 }
 
 .dashboard_bigScreen {
-  margin: 4% 4% 4% 12% ;
+  margin: 2% 9% 4% 9% ;
 }
 
 .dashboard_MobileScreen{
@@ -28,7 +28,7 @@
   padding: 2px 2px 2px 2px;
   display: flex;
   background: white;
-  width: 35%;
+  width: 25%;
 }
 
 .dashboard__profil_bigScreen {
@@ -36,9 +36,10 @@
 }
 
 .dashboard__profil_MobileScreen{
-  margin: 4% 1% 4% 1% ;
+  margin: 4% 4% 4% 4% ;
   padding: 2px 2px 2px 2px;
   display: flex;
+  width: 30%;
 }
 
 .dashboard__profil_smallScreen {
@@ -49,7 +50,7 @@
 }
 
 .dashboard_headerContent{
-  width: 65%;
+  width: 75%;
   padding: 2px 2px 2px 2px;
 }
 
@@ -58,7 +59,8 @@
 }
 
 .dashboard_headerContent_MobileScreen{
-  margin: 4% 1% 4% 1% ;
+  margin: 4% 5% 4% 1% ;
+  width: 70%;
 }
 
 .dashboard_headerContent_smallScreen {
